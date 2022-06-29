@@ -1,4 +1,4 @@
-# Project Perguntas 2022
+# Projeto Perguntas 2022
 
 Projeto atualizado para as versões novas do Dart e Flutter do projeto Perguntas do curso [Aprenda Flutter & Dart e Construa APPs iOS e Android](https://www.cod3r.com.br/courses/aprenda-flutter-dart-e-construa-apps-ios-e-android) course.
 
