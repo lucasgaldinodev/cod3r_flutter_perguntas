@@ -1,10 +1,10 @@
-# Projeto Perguntas 2022
+# Projeto Perguntas
 
-Projeto atualizado para as versões novas do Dart e Flutter do projeto Perguntas do curso [Aprenda Flutter & Dart e Construa APPs iOS e Android](https://www.cod3r.com.br/courses/aprenda-flutter-dart-e-construa-apps-ios-e-android) da [Cod3r](https://www.cod3r.com.br/).
+Projeto Perguntas do curso [Aprenda Flutter & Dart e Construa APPs iOS e Android](https://www.cod3r.com.br/courses/aprenda-flutter-dart-e-construa-apps-ios-e-android) da [Cod3r](https://www.cod3r.com.br/) atualizado para o Flutter 3.
 
 ## Executando o projeto
 
-Se trata de um projeto em Flutter, para executar é necessário:
+Trata-se de um projeto em Flutter, para executar é necessário:
 * Ter a linguagem Dart e o Flutter instalados na sua máquina e presentes no path do sistema.
 * Ter um emulador instalado ou um dispositivo físico disponível para testes do projeto.
 * Baixar o conteúdo do repositório, seja clonando ou via download de arquivo zip.
