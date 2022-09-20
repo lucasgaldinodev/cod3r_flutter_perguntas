@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  final perguntas = [
-    'Qual é a sua cor favorita?',
-    'Qual é o seu animal favorito?'
-  ];
-
-  MyApp({super.key});
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final perguntas = [
+      'Qual é a sua cor favorita?',
+      'Qual é o seu animal favorito?',
+    ];
+
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
