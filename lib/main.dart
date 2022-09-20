@@ -7,6 +7,10 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+  void responder() {
+    print('Pergunta respondida!');
+  }
+
   @override
   Widget build(BuildContext context) {
     final perguntas = [
@@ -23,15 +27,15 @@ class MyApp extends StatelessWidget {
           children: [
             Text(perguntas[0]),
             const ElevatedButton(
-              onPressed: null,
+              onPressed: responder(),
               child: Text('Resposta 1'),
             ),
             const ElevatedButton(
-              onPressed: null,
+              onPressed: responder(),
               child: Text('Resposta 2'),
             ),
             const ElevatedButton(
-              onPressed: null,
+              onPressed: responder(),
               child: Text('Resposta 3'),
             ),
           ],
