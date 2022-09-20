@@ -1,4 +1,4 @@
-package com.example.projeto_perguntas_2022
+package com.example.projeto_perguntas
 
 import io.flutter.embedding.android.FlutterActivity
 
