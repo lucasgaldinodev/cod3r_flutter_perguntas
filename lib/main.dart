@@ -26,17 +26,19 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             Text(perguntas[0]),
-            const ElevatedButton(
-              onPressed: responder(),
-              child: Text('Resposta 1'),
+            ElevatedButton(
+              onPressed: responder,
+              child: const Text('Resposta 1'),
             ),
-            const ElevatedButton(
-              onPressed: responder(),
-              child: Text('Resposta 2'),
+            ElevatedButton(
+              onPressed: () {
+                print('Resposta 2 foi selecionada!');
+              },
+              child: const Text('Resposta 2'),
             ),
-            const ElevatedButton(
-              onPressed: responder(),
-              child: Text('Resposta 3'),
+            ElevatedButton(
+              onPressed: () => print('Resposta 3!!!'),
+              child: const Text('Resposta 3'),
             ),
           ],
         ),
