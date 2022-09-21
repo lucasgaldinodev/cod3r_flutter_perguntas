@@ -27,15 +27,17 @@ class PerguntaApp extends StatelessWidget {
           children: [
             Text(perguntas[0]),
             ElevatedButton(
-              onPressed: responder(),
+              onPressed: responder,
               child: const Text('Resposta 1'),
             ),
             ElevatedButton(
-              onPressed: responder(),
+              onPressed: () {
+                print('Resposta 2 foi selecionada!');
+              },
               child: const Text('Resposta 2'),
             ),
             ElevatedButton(
-              onPressed: responder(),
+              onPressed: () => print('Resposta 3!!!'),
               child: const Text('Resposta 3'),
             ),
           ],
